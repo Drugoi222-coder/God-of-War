@@ -1,18 +1,116 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
-  <title>Hello World</title>
+  <title>God of War</title>
 </head>
+
 <body class="page">
   <header class="header">
-    <h1 class="header__title">Hello World!</h1>
+    <nav class="nav header__nav">
+      <div class="nav__picture">
+        <img class="nav__logo" src="images/header/logo.png" alt="God of War logo">
+      </div>
+      <div class="nav__svg">
+        <img class="nav__curve" src="images/header/curve.svg" alt="curve">
+      </div>
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="" class="nav__link">Vídeos e Telas</a>
+        </li>
+        <li class="nav__item">
+          <a href="" class="nav__link">Bastidores</a>
+        </li>
+        <li class="nav__item">
+          <a href="" class="nav__link">Comunidade</a>
+        </li>
+        <li class="nav__item">
+          <button class="button button_theme_buy">Compre Agora</button>
+        </li>
+      </ul>
+    </nav>
+    <article class="article">
+      <h1 class="article__title">Um mundo mais sombrio e primitivo</h1>
+      <p class="article__txt">Do mármore e colunas ornadas do Ólimpo para as florestas, este é um reino novo, com suas
+        próprias espécies de criaturas, monstros e deuses</p>
+      <button class="button button_theme_more">Compre Agora</button>
+      <div class="article__video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K0u_kAWLJOA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </article>
   </header>
-  <main class="main"></main>
+  <main class="main">
+    <section class="heroes">
+      <h2 class="heroes__title">Os maiores heróis dos Noves Reinos</h2>
+      <div class="heroes__slider">
+        <div class="heroes__card">
+          <div class="heroes__picture">
+            <img class="heroes__img" src="images/heroes/kratos.png" alt="Kratos picture">
+          </div>
+          <h3 class="heroes__name">Kratos</h3>
+        </div>
+        <div class="heroes__card">
+          <div class="heroes__picture">
+            <img class="heroes__img" src="images/heroes/atreus.png" alt="Atreus picture">
+          </div>
+          <h3 class="heroes__name">Atreus</h3>
+        </div>
+        <div class="heroes__card">
+          <div class="heroes__picture">
+            <img class="heroes__img" src="images/heroes/freya.png" alt="Freya picture">
+          </div>
+          <h3 class="heroes__name">Freya</h3>
+        </div>
+        <div class="heroes__card">
+          <div class="heroes__picture">
+            <img class="heroes__img" src="images/heroes/angrboda.png" alt="Angrboda picture">
+          </div>
+          <h3 class="heroes__name">Angrboda</h3>
+        </div>
+      </div>
+    </section>
+    <section class="screens">
+      <div class="screens__wrap">
+        <div class="screens__pictures">
+          <img class="screens__img" src="images/screens/01.png" alt="first screen">
+        </div>
+        <div class="screens__pictures">
+          <img class="screens__img" src="images/screens/02.png" alt="second screen">
+        </div>
+        <div class="screens__pictures">
+          <img class="screens__img" src="images/screens/03.png" alt="third screen">
+        </div>
+      </div>
+      <h2 class="screens__title">Lute no Reino Nórdico</h2>
+      <p class="screens__txt">Com a vingança contra os deuses do Olímpo em um passado distante, Kratos agora vive como
+        um mortal no reino dos deuses e monstros nórdicos.
+        É nesse mundo duro e implacável que ele deve lutar para sobreviver... e ensinar seu filho a fazer o mesmo.</p>
+    </section>
+    <section class="weapons">
+      <h2 class="weapons__title">Armas Lendárias</h2>
+      <div class="weapons__wrap">
+        <div class="weapons__card">
+          <h3 class="weapons__name">Poder Rúnico Refinado</h3>
+          <p class="weapons__txt">Novas habilidades permitem que Kratos use seu machado de maneira inéditas</p>
+          <button class="button button_theme_buy">Compre Agora</button>
+        </div>
+        <div class="weapons__card">
+          <h3 class="weapons__name">Mais do que um garoto com um arco</h3>
+          <p class="weapons__txt">Atreus aprimorou suas habilidades de arquearia para desferir novos ataques</p>
+          <button class="button button_theme_buy">Compre Agora</button>
+        </div>
+      </div>
+    </section>
+  </main>
   <footer class="footer"></footer>
   <script src="./script/index.js"></script>
 </body>
+
 </html>
