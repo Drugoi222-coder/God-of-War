@@ -1,4 +1,8 @@
-.weapons__card
-{
-    
+.weapons__card {
+  background:#27272E;
+  width: 38vw;
+  height: 520px;
+  display: flex;
+  border-radius: 5px;
+  position: relative;
 }

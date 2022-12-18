@@ -1,4 +1,7 @@
-.weapons__txt
-{
-
+.weapons__txt {
+  font-family: "Inter";
+  margin: 0;
+  margin-top: 16px;
+  line-height: 160%;
+  font-size: 18px;
 }

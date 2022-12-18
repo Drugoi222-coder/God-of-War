@@ -1,4 +1,7 @@
-.screens__wrap
-{
-    
+.screens__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25.2vw;
+  height: 667px;
 }

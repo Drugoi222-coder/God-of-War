@@ -1,5 +1,4 @@
-.weapons__wrap {
+.screens__content {
   display: flex;
-  margin-top: 26px;
   justify-content: space-between;
 }

@@ -1,4 +1,6 @@
-.screens__title
-{
-    
+.screens__title {
+  font-size: 48px;
+  margin: 0;
+  line-height: 65px;
+  margin-top: 99px;
 }

@@ -1,4 +1,6 @@
-.weapons
-{
-    
+.weapons {
+  font-family: "Cinzel";
+  color: var(--white-text);
+  padding-top: 236px;
+  padding-bottom: 206px;
 }

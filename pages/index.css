@@ -38,6 +38,8 @@
 @import '../blocks/screens/__pictures/screens__pictures.css';
 @import '../blocks/screens/__title/screens__title.css';
 @import '../blocks/screens/__txt/screens__txt.css';
+@import '../blocks/screens/__desc/screens__desc.css';
+@import '../blocks/screens/__content/screens__content.css';
 /* Weapons */
 @import '../blocks/weapons/weapons.css';
 @import '../blocks/weapons/__card/weapons__card.css';
@@ -45,6 +47,10 @@
 @import '../blocks/weapons/__title/weapons__title.css';
 @import '../blocks/weapons/__txt/weapons__txt.css';
 @import '../blocks/weapons/__wrap/weapons__wrap.css';
+@import '../blocks/weapons/__button/weapons__button.css';
+@import '../blocks/weapons/__descr/weapons__descr.css';
+@import '../blocks/weapons/__img/weapons__img.css';
+@import '../blocks/weapons/__picture/weapons__picture.css';
 /* Container */
 @import '../blocks/container/container.css';
 /* Heroes */

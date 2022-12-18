@@ -1,4 +1,7 @@
-.screens__txt
-{
-    
+.screens__txt {
+  font-family: "Inter";
+  font-size: 16px;
+  margin: 0;
+  margin-top: 17px;
+  line-height: 160%;
 }
