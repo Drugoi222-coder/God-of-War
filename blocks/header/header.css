@@ -1,3 +1,8 @@
-.header{
-  
+.header {
+  height: 100vh;
+  background:
+    linear-gradient(#16161a00 82%, #16161a 95%),
+    101.5% 72.8% / 60.4% no-repeat url("../../images/header/herois-header.png"),
+    0% 0% / 101% no-repeat url("../../images/header/background.png");
+  position: relative;
 }

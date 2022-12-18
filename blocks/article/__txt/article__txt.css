@@ -1,0 +1,10 @@
+.article__txt {
+  font-family: "Inter";
+  color: white;
+  margin: 0;
+  width: 33vw;
+  margin-left: 2px;
+  line-height: 160%;
+  margin-top: 17px;
+  font-size: 18px;
+}

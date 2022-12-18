@@ -1,12 +1,49 @@
 @import '../vendor/normalize.css';
 @import '../vendor/variables.css';
 @import '../vendor/fonts/fonts.css';
-/* Blocks */ 
+/* Blocks */
 @import '../blocks/page/page.css';
-/* Header */ 
+/* Header */
 @import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__nav/header__nav.css';
 /* Main */
 @import '../blocks/main/main.css';
 /* Footer */
 @import '../blocks/footer/footer.css';
+/* Article */
+@import '../blocks/article/article.css';
+@import '../blocks/article/__video/article__video.css';
+@import '../blocks/article/__txt/article__txt.css';
+@import '../blocks/article/__title/article__title.css';
+@import '../blocks/article/__wrap/article__wrap.css';
+/* Button */
+@import '../blocks/button/button.css';
+@import '../blocks/button/_theme/button_theme.css';
+@import '../blocks/button/_theme/_buy/button_buy.css';
+@import '../blocks/button/_theme/_more/button_more.css';
+/* Nav */
+@import '../blocks/nav/nav.css';
+@import '../blocks/nav/__curve/nav__curve.css';
+@import '../blocks/nav/__item/nav__item.css';
+@import '../blocks/nav/__link/nav__link.css';
+@import '../blocks/nav/__list/nav__list.css';
+@import '../blocks/nav/__logo/nav__logo.css';
+@import '../blocks/nav/__picture/nav__picture.css';
+@import '../blocks/nav/__svg/nav__svg.css';
+/* Screens */
+@import '../blocks/screens/screens.css';
+@import '../blocks/screens/__wrap/screens__wrap.css';
+@import '../blocks/screens/__img/screens__img.css';
+@import '../blocks/screens/__pictures/screens__pictures.css';
+@import '../blocks/screens/__title/screens__title.css';
+@import '../blocks/screens/__txt/screens__txt.css';
+/* Weapons */
+@import '../blocks/weapons/weapons.css';
+@import '../blocks/weapons/__card/weapons__card.css';
+@import '../blocks/weapons/__name/weapons__name.css';
+@import '../blocks/weapons/__title/weapons__title.css';
+@import '../blocks/weapons/__txt/weapons__txt.css';
+@import '../blocks/weapons/__wrap/weapons__wrap.css';
+/* Container */
+@import '../blocks/container/container.css';

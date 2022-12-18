@@ -1,0 +1,10 @@
+.nav__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 30.8vw;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+}

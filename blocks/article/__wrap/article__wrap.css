@@ -1,0 +1,8 @@
+.article__wrap {
+  display: flex;
+  margin-top: 26px;
+  width: 17.44vw;
+  flex-wrap: wrap;
+  margin-left: 2px;
+  justify-content: space-between;
+}

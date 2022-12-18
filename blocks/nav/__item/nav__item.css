@@ -1,0 +1,7 @@
+.nav__item {
+  margin-top: 17px;
+}
+
+.nav__item:last-child {
+  margin-top: 0;
+}

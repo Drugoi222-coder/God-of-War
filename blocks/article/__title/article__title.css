@@ -1,0 +1,10 @@
+.article__title {
+  color: white;
+  font-family: "Cinzel";
+  font-size: 64px;
+  width: 45vw;
+  margin: 0;
+  margin-left: 2px;
+  margin-top: 97px;
+  line-height: 90%;
+}
