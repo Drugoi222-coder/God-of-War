@@ -1,4 +1,11 @@
-.heroes__name
-{
-    
+.heroes__name {
+  position: absolute;
+  color: var(--white-text);
+  margin: 0;
+  font-family: "Cinzel";
+  font-size: 32px;
+  text-transform: uppercase;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
 }

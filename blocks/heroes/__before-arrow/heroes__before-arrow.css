@@ -1,0 +1,9 @@
+.heroes__before-arrow {
+  background: center/100% no-repeat url('../../../images/heroes/arrow.svg');
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  cursor: pointer;
+  left: -100px;
+  bottom: 215px;
+}

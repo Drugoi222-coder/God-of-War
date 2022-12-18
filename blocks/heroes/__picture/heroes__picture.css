@@ -1,4 +1,21 @@
-.heroes__picture
-{
-    
+.heroes__picture {
+  width: 19.3vw;
+  position: relative;
+}
+
+.heroes__picture::before {
+  content: "";
+  z-index: -1;
+  width: 99%;
+  height: 420px;
+  background: #27272e;
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s linear;
+}
+
+.heroes__picture:hover::before {
+  border: 1px solid #5092d2;
+  border-bottom: none;
 }

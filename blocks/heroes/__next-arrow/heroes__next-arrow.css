@@ -1,0 +1,10 @@
+.heroes__next-arrow {
+  background: center/100% no-repeat url("../../../images/heroes/arrow.svg");
+  width: 30px;
+  height: 30px;
+  transform: rotate(180deg);
+  cursor: pointer;
+  position: absolute;
+  right: -100px;
+  bottom: 215px;
+}

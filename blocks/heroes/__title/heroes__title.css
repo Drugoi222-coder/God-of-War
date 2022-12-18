@@ -1,4 +1,7 @@
-.heroes__title
-{
-    
+.heroes__title {
+  font-size: 48px;
+  margin: 0 auto;
+  width: 49.5vw;
+  color: var(--white-text);
+  font-family: "Cinzel";
 }

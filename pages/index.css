@@ -47,3 +47,13 @@
 @import '../blocks/weapons/__wrap/weapons__wrap.css';
 /* Container */
 @import '../blocks/container/container.css';
+/* Heroes */
+@import '../blocks/heroes/heroes.css';
+@import '../blocks/heroes/__title/heroes__title.css';
+@import '../blocks/heroes/__slider/heroes__slider.css';
+@import '../blocks/heroes/__picture/heroes__picture.css';
+@import '../blocks/heroes/__name/heroes__name.css';
+@import '../blocks/heroes/__img/heroes__img.css';
+@import '../blocks/heroes/__card/heroes__card.css';
+@import '../blocks/heroes/__before-arrow/heroes__before-arrow.css';
+@import '../blocks/heroes/__next-arrow/heroes__next-arrow.css';
