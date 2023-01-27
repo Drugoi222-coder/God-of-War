@@ -1,4 +1,9 @@
-.nav__svg
-{
-    
+.nav__svg {
+  width: 30.5%;
+}
+
+@media (max-width: 1279px) {
+  .nav__svg {
+    display: none;
+  }
 }

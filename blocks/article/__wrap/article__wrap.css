@@ -6,3 +6,15 @@
   margin-left: 2px;
   justify-content: space-between;
 }
+
+@media (max-width: 1599px) {
+  .article__wrap {
+    width: 340px;
+  }
+}
+
+@media (max-width: 479px) {
+  .article__wrap {
+    width: 260px;
+  }
+}

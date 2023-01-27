@@ -1,7 +1,17 @@
 .nav__item {
-  margin-top: 17px;
 }
 
 .nav__item:last-child {
   margin-top: 0;
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .nav__item > .nav__link,.nav__item > .button {
+    display: none;
+  }
+  .nav__item:last-child {
+    cursor: pointer;
+    display: block;
+  }
 }

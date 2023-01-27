@@ -5,5 +5,16 @@
   position: absolute;
   cursor: pointer;
   left: -100px;
-  bottom: 215px;
+  bottom: 36%;
+}
+
+@media (max-width: 1440px) {
+  .heroes__before-arrow {
+    left: -60px;
+  }
+}
+@media (max-width: 1024px) {
+  .heroes__before-arrow {
+    display: none;
+  }
 }

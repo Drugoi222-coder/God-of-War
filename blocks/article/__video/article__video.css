@@ -1,5 +1,11 @@
 .article__video {
   position: absolute;
-  bottom: 108px;
+  bottom: 55px;
   right: 183px;
+}
+
+@media (max-width: 1279px) {
+  .article__video {
+    display: none;
+  }
 }

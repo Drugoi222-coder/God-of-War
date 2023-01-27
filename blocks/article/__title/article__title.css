@@ -8,3 +8,29 @@
   margin-top: 97px;
   line-height: 90%;
 }
+
+@media (max-width: 1599px) {
+  .article__title {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 1023px) {
+  .article__title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .article__title {
+    width: 78vw;
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 479px) {
+  .article__title {
+    width: 87vw;
+    font-size: 25px;
+  }
+}

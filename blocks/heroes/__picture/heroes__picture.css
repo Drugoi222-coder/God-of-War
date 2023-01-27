@@ -1,5 +1,4 @@
 .heroes__picture {
-  width: 19.3vw;
   position: relative;
 }
 
@@ -18,4 +17,10 @@
 .heroes__picture:hover::before {
   border: 1px solid #5092d2;
   border-bottom: none;
+}
+
+@media (max-width: 480px) {
+  .heroes__picture::before {
+    height: 310px;
+  }
 }

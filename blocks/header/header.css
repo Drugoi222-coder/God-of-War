@@ -1,8 +1,48 @@
 .header {
-  height: 100vh;
+  height: 94.5vh;
   background:
-    linear-gradient(#16161a00 82%, #16161a 95%),
-    101.5% 72.8% / 60.4% no-repeat url("../../images/header/herois-header.png"),
-    0% 0% / 101% no-repeat url("../../images/header/background.png");
+    linear-gradient(#16161a00 88%, #16161a 100%),
+    101.5% bottom / 1149px no-repeat url("../../images/header/herois-header.png"),
+    0% 0% / cover no-repeat url("../../images/header/background.png");
   position: relative;
+}
+
+@media (max-width: 1599px) {
+  .header {
+    background:    linear-gradient(#16161a00 88%, #16161a 100%),
+    101.5% bottom / 69.4% no-repeat url("../../images/header/herois-header.png"),
+    0% 0% / cover no-repeat url("../../images/header/background.png");
+  }
+}
+
+@media (max-width: 1439px) {
+  .header {
+    background:    linear-gradient(#16161a00 88%, #16161a 100%),
+    122.5% bottom / 78.4% no-repeat url("../../images/header/herois-header.png"),
+    0% 0% / cover no-repeat url("../../images/header/background.png");
+  }
+}
+
+@media (max-width: 1279px) {
+  .header {
+    background:    linear-gradient(#16161a00 88%, #16161a 100%),
+    243.5% bottom / 88.4% no-repeat url("../../images/header/herois-header.png"),
+    0% 0% / cover no-repeat url("../../images/header/background.png");
+  }
+}
+
+@media (max-width: 1023px) {
+  .header {
+    background: linear-gradient(#16161a00 88%, #16161a 100%),
+    1393.5% bottom / 98.4% no-repeat url("../../images/header/herois-header.png"),
+    0% 0% / cover no-repeat url("../../images/header/background.png");
+  }
+}
+
+@media (max-width: 479px) {
+  .header {
+    background: linear-gradient(#16161a00 88%, #16161a 100%),
+    40% bottom / 510px no-repeat url("../../images/header/herois-header.png"),
+    0% 0% / cover no-repeat url("../../images/header/background.png");
+  }
 }

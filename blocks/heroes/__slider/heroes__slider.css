@@ -3,6 +3,20 @@
   justify-content: space-between;
   align-items: flex-end;
   flex-wrap: wrap;
-  margin-top: 64px;
   position: relative;
+}
+
+@media (max-width: 1024px) {
+  .heroes__slider {
+    flex-direction: column;
+    align-items: center;
+    height: 2220px;
+    margin-top: 64px;
+  }
+}
+@media (max-width:480px) {
+  .heroes__slider {
+    height: 1660px;
+    margin-top: 34px;
+  }
 }
