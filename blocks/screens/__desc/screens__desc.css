@@ -1,3 +1,9 @@
 .screens__desc {
-  width: 21vw;
+  width: 400px;
+}
+
+@media (max-width: 479px) {
+  .screens__desc {
+    width: 270px;
+  }
 }

@@ -8,12 +8,12 @@
   bottom: 36%;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .heroes__before-arrow {
     left: -60px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .heroes__before-arrow {
     display: none;
   }

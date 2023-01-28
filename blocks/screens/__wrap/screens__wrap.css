@@ -2,6 +2,5 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 25.2vw;
-  height: 667px;
+  height: 100%;
 }

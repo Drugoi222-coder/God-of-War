@@ -3,5 +3,25 @@
   font-family: "Cinzel";
   padding-top: 352px;
   padding-bottom: 112px;
-  background: 48.68% 99% / 83% no-repeat url('../../images/screens/principal.png');
+  background: center bottom / 1587px no-repeat url('../../images/screens/principal.png');
+}
+
+@media (max-width: 1023px) {
+  .screens {
+    padding-top: 212px;
+    background: center top / 1900px no-repeat url('../../images/screens/principal.png');
+  }
+}
+
+@media (max-width: 767px) {
+  .screens {
+    padding-top: 152px;
+    background: none;
+  }
+}
+
+@media (max-width: 479px) {
+  .screens {
+    padding-top: 100px;
+  }
 }

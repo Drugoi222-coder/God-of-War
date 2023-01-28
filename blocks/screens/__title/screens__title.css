@@ -4,3 +4,11 @@
   line-height: 65px;
   margin-top: 99px;
 }
+
+@media (max-width: 479px) {
+  .screens__title {
+    font-size: 34px;
+    line-height: normal;
+    margin-top: 40px; 
+  }
+}

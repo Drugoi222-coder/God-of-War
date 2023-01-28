@@ -1,7 +1,7 @@
 .heroes__img {
   width: 99%;
 }
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .heroes__img {
     width: 270px;
   }
