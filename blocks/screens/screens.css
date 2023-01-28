@@ -5,10 +5,13 @@
   padding-bottom: 112px;
   background: center bottom / 1587px no-repeat url('../../images/screens/principal.png');
 }
-
+@media (max-width: 1659px) {
+  .screens {
+    padding-top: 182px;
+  }
+}
 @media (max-width: 1023px) {
   .screens {
-    padding-top: 212px;
     background: center top / 1900px no-repeat url('../../images/screens/principal.png');
   }
 }
