@@ -1,3 +1,9 @@
 .weapons__picture {
   width: 38%;
 }
+
+@media (max-width: 767px) {
+  .weapons__picture {
+    display: none;
+  }
+}

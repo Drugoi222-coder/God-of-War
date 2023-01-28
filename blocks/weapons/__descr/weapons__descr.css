@@ -1,4 +1,14 @@
 .weapons__descr {
-  padding-left: 64px;
+  padding-left: 34px;
   width: 52%;
+}
+@media (max-width: 767px) {
+  .weapons__descr {
+    width: 85%;
+  }
+}
+@media (max-width: 479px) {
+  .weapons__descr {
+    padding-left: 27px;
+  }
 }

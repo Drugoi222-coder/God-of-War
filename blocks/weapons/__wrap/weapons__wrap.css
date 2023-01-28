@@ -1,5 +1,13 @@
 .weapons__wrap {
-  display: flex;
-  margin-top: 26px;
-  justify-content: space-between;
+  display: grid;
+  place-items: center;
+  grid-template: 1fr / 1fr 1fr;
+  margin: 0 auto;
+}
+
+@media (max-width: 1659px) {
+  .weapons__wrap {
+    grid-template: 2fr / 1fr;
+    row-gap: 26px;
+  }
 }

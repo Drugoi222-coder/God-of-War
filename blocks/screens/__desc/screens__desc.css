@@ -2,6 +2,12 @@
   width: 400px;
 }
 
+@media (max-width: 1023px) {
+  .screens__desc {
+    width: 64vw;
+  }
+}
+
 @media (max-width: 479px) {
   .screens__desc {
     width: 270px;

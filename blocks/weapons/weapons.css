@@ -4,3 +4,9 @@
   padding-top: 236px;
   padding-bottom: 206px;
 }
+
+@media (max-width: 1659px) {
+  .weapons {
+    padding: 80px 0;
+  }
+}

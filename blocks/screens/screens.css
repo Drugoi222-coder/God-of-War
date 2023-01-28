@@ -16,6 +16,7 @@
 @media (max-width: 767px) {
   .screens {
     padding-top: 152px;
+    padding-bottom: 0;
     background: none;
   }
 }
